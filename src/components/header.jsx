@@ -5,11 +5,13 @@ const header = () => {
   return (
     <header className="main-header">
       <h1>ASHLEY PERL</h1>
-      <ul>
-        <li>ABOUT</li>
-        <li>WRITING</li>
-        <li>CONTACT</li>
-      </ul>
+      <nav className="header-nav">
+        <ul className="header-list">
+          <li>ABOUT</li>
+          <li>WRITING</li>
+          <li>CONTACT</li>
+        </ul>
+      </nav>
     </header>
   );
 };

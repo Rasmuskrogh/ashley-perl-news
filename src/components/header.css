@@ -1,3 +1,22 @@
 .main-header {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  margin-bottom: 3%;
+}
+
+/* .header-nav {
+  display: flex;
+  justify-content: flex-end;
+}*/
+
+.header-list {
+  display: flex;
+  width: 20rem;
+  justify-content: space-between;
+}
+
+.header-list > li {
+  list-style-type: none;
 }
