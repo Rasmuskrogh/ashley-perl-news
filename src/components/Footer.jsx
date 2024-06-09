@@ -11,10 +11,10 @@ const Footer = () => {
       <p> &copy; Ashley Perl 2024</p>
       <div className="footer-links">
         <Link to="https://www.linkedin.com/in/ashleyperl/">
-          <img src={linkedIn}></img>
+          <img src={linkedIn} alt="linkedIn logo"></img>
         </Link>
         <Link className="x-logo" to="https://x.com/ashleyaperl">
-          <img src={XLogo}></img>
+          <img src={XLogo} alt="X logo"></img>
         </Link>
       </div>
     </footer>
