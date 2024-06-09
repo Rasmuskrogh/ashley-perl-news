@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import React, { useState } from "react";
 import Notice from "./Notice";
 
-import "./Header.css";
+import "./header.css";
 
 const Header = () => {
   const [buttonActivity, setButtonActivity] = useState(true);
