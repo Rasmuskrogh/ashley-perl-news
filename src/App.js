@@ -3,7 +3,7 @@ import Header from "./components/header";
 import Main from "./components/Main";
 import Contact from "./components/Contact";
 import Writing from "./components/Writing";
-import About from "./components/about";
+import About from "./components/About";
 import Footer from "./components/Footer";
 
 function App() {
