@@ -1,0 +1,28 @@
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /*   height: 100px; */
+  padding: 1rem 2rem 0.5rem 2rem;
+}
+
+footer p {
+  font-size: 20px;
+}
+
+.footer-links {
+  align-self: center;
+}
+
+.footer-links img {
+  height: 20px;
+}
+
+.x-logo {
+  margin-left: 2.5rem;
+}
+
+.x-logo img {
+  height: 17px;
+  margin-bottom: 2px;
+}

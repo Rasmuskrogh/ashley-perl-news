@@ -1,0 +1,31 @@
+.notice-wrapper {
+  background-color: purple;
+  height: 25px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+/* .paragraph-wrapper {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+} */
+
+.notice-wrapper > div > button {
+  color: white;
+  background-color: purple;
+  border: none;
+  margin-right: 3px;
+  z-index: 20;
+}
+
+.paragraph-wrapper > p {
+  margin-top: 0px;
+  color: white;
+}
+
+.button-wrapper {
+  margin-right: 5px;
+}

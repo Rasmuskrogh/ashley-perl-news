@@ -1,23 +1,22 @@
-import Header from "./components/header";
-import Headshot from "./assets/PerlAshley.jpg";
+import { Routes, Route } from "react-router-dom";
+import Header from "./components/Header";
+import Main from "./components/Main";
+import Contact from "./components/Contact";
+import Writing from "./components/Writing";
+import About from "./components/About";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
       <Header />
-      <div className="section-wrapper">
-        <section className="presentation-section">
-          <h1>Hello.</h1>
-          <p>
-            I’m Ashley Perl – a journalist <br /> covering energy, climate and
-            <br />
-            science stories.
-          </p>
-        </section>
-        <section className="image-section">
-          <img src={Headshot} alt="headshot"></img>
-        </section>
-      </div>
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/writing" element={<Writing />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+      <Footer />
     </>
   );
 }

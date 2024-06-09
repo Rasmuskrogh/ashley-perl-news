@@ -1,0 +1,31 @@
+.section-wrapper {
+  display: flex;
+  margin: 0px 4%;
+}
+
+.presentation-section {
+  /* border: 2px solid blue; */
+  width: 50%;
+  height: auto;
+  align-self: center;
+}
+
+.presentation-section > h1 {
+  line-height: 0px;
+  font-size: 50px;
+}
+
+.presentation-section > p {
+  font-size: 30px;
+}
+
+.image-section {
+  /* border: 2px solid red; */
+  width: 50%;
+  height: auto;
+}
+
+.image-section > img {
+  object-fit: cover;
+  width: 100%;
+}
