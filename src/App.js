@@ -1,9 +1,9 @@
 import { Routes, Route } from "react-router-dom";
-import Header from "./components/Header";
+import Header from "./components/header";
 import Main from "./components/Main";
 import Contact from "./components/Contact";
 import Writing from "./components/Writing";
-import About from "./components/About";
+import About from "./components/about";
 import Footer from "./components/Footer";
 
 function App() {

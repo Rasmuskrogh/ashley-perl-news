@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
   background-color: transparent;
   margin: 0 4% 2% 4%;
 }
@@ -15,6 +16,7 @@
   display: flex;
   width: 20rem;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .header-links {
