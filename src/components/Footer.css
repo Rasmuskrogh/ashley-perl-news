@@ -1,13 +1,14 @@
-footer {
+.footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   /*   height: 100px; */
   padding: 1rem 2rem 0.5rem 2rem;
+  margin-top: auto;
 }
 
 footer p {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .footer-links {

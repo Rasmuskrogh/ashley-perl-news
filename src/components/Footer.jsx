@@ -7,7 +7,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className="footer">
       <p> &copy; Ashley Perl 2024</p>
       <div className="footer-links">
         <Link to="https://www.linkedin.com/in/ashleyperl/">
