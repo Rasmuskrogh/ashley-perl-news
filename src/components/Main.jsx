@@ -9,9 +9,8 @@ const Main = () => {
       <section className="presentation-section">
         <h1>Hello.</h1>
         <p>
-          I’m Ashley Perl – a journalist <br /> covering energy, climate and
-          <br />
-          science stories.
+          I’m Ashley Perl – a journalist covering energy, climate and science
+          stories.
         </p>
       </section>
       <section className="image-section">
