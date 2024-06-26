@@ -25,7 +25,7 @@ const Header = () => {
           <Link to="/">ASHLEY PERL</Link>
         </h1>
         <nav className="header-nav">
-          <ul className={openBurger ? "header-list" : "header-list open"}>
+          <ul className={!openBurger ? "header-list" : "header-list open"}>
             <li className="header-links">
               <Link to="/about">ABOUT</Link>
             </li>
