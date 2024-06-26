@@ -11,14 +11,18 @@ const Footer = () => {
     <footer className="footer">
       <p> &copy; Ashley Perl 2024</p>
       <div className="footer-links">
-        <Link to="https://www.linkedin.com/in/ashleyperl/">
+        <Link to="https://www.linkedin.com/in/ashleyperl/" target="_blank">
           <img src={linkedIn} alt="linkedIn logo"></img>
         </Link>
-        <Link className="x-logo" to="https://x.com/ashleyaperl">
+        <Link className="x-logo" to="https://x.com/ashleyaperl" target="_blank">
           <img src={XLogo} alt="X logo"></img>
         </Link>
-        <Link className="muckrack-logo">
-          <img src={muckrack} alt="muckrach logo"></img>
+        <Link
+          className="muckrack-logo"
+          to="https://muckrack.com/ashley-perl"
+          target="_blank"
+        >
+          <img src={muckrack} alt="muckrack logo"></img>
         </Link>
       </div>
     </footer>
