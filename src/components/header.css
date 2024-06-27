@@ -16,7 +16,6 @@
   display: flex;
   width: 20rem;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 
 .header-links {
@@ -54,6 +53,7 @@
     width: 100vw;
     overflow: hidden;
     left: 0;
+    opacity: 0;
   }
 
   .header-list.open {
@@ -64,5 +64,16 @@
     gap: 2rem;
     font-size: 24px;
     padding: 0;
+    opacity: 1;
+    animation: hamburgerOpen 0.5s;
+  }
+
+  @keyframes hamburgerOpen {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
   }
 }
