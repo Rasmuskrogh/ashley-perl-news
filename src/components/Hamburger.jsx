@@ -2,12 +2,12 @@ import React from "react";
 
 import "./Hamburger.css";
 
-const Hamburger = () => {
+const Hamburger = ({ isOpen }) => {
   return (
     <div className="hamburger">
-      <div className="burger burger1" />
-      <div className="burger burger2" />
-      <div className="burger burger3" />
+      <div className={!isOpen ? "burger" : "burger burger1"} />
+      <div className={!isOpen ? "burger" : "burger burger2"} />
+      <div className={!isOpen ? "burger" : "burger burger3"} />
     </div>
   );
 };

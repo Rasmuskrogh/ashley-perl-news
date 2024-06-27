@@ -22,22 +22,30 @@ const Header = () => {
       {!buttonActivity ? null : <Notice onClick={clickHandler} />}
       <header className="main-header">
         <h1>
-          <Link to="/">ASHLEY PERL</Link>
+          <Link to="/" onClick={toggleBurger}>
+            ASHLEY PERL{" "}
+          </Link>
         </h1>
         <nav className="header-nav">
           <ul className={!openBurger ? "header-list" : "header-list open"}>
             <li className="header-links">
-              <Link to="/about">ABOUT</Link>
+              <Link to="/about" onClick={toggleBurger}>
+                ABOUT
+              </Link>
             </li>
             <li className="header-links">
-              <Link to="/writing">REPORTING</Link>
+              <Link to="/writing" onClick={toggleBurger}>
+                REPORTING
+              </Link>
             </li>
             <li className="header-links">
-              <Link to="/contact">CONTACT</Link>
+              <Link to="/contact" onClick={toggleBurger}>
+                CONTACT
+              </Link>
             </li>
           </ul>
           <div className="hamburger " onClick={toggleBurger}>
-            <Hamburger />
+            <Hamburger isOpen={openBurger} />
           </div>
         </nav>
       </header>
