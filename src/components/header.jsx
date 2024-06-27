@@ -22,7 +22,7 @@ const Header = () => {
       {!buttonActivity ? null : <Notice onClick={clickHandler} />}
       <header className="main-header">
         <h1>
-          <Link to="/" onClick={toggleBurger}>
+          <Link to="/" onClick={openBurger ? toggleBurger : ""}>
             ASHLEY PERL{" "}
           </Link>
         </h1>

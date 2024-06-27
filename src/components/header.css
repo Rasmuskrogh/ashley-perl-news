@@ -54,6 +54,7 @@
     overflow: hidden;
     left: 0;
     opacity: 0;
+    animation: hamburgerClosed 0.5;
   }
 
   .header-list.open {

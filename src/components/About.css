@@ -1,0 +1,48 @@
+.about-wrapper {
+  display: flex;
+  margin: 0px 4%;
+  gap: 2rem;
+}
+
+.text-aside {
+  width: 50%;
+  height: auto;
+}
+
+.text-aside > h1 {
+  line-height: 0px;
+  font-size: 50px;
+  margin-bottom: 4rem;
+}
+
+.text-aside > p,
+.text-aside > ul > li {
+  font-size: 30px;
+}
+
+.list-heading {
+  margin-bottom: 0px;
+}
+
+.text-aside > p > a {
+  text-decoration: none;
+  color: blue;
+}
+
+.text-aside > ul {
+  margin-top: 0px;
+}
+
+.figure-section {
+  width: 50%;
+  height: auto;
+}
+
+.figure-section > img {
+  object-fit: cover;
+  width: 100%;
+  height: 80%;
+  overflow: hidden;
+  margin-left: auto;
+  display: block;
+}

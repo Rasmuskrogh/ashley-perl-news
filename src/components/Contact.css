@@ -4,6 +4,9 @@
 
 .contact-header {
   text-align: center;
+  line-height: 0px;
+  font-size: 50px;
+  margin-bottom: 4rem;
 }
 
 .contact-paragraph {
