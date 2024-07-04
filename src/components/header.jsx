@@ -34,7 +34,7 @@ const Header = () => {
               </Link>
             </li>
             <li className="header-links">
-              <Link to="/writing" onClick={toggleBurger}>
+              <Link to="/reporting" onClick={toggleBurger}>
                 REPORTING
               </Link>
             </li>

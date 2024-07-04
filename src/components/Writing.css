@@ -1,0 +1,53 @@
+.reporting-wrapper {
+  padding: 0 1rem;
+}
+
+.reporting-header-section {
+  text-align: center;
+  margin-bottom: 7rem;
+  line-height: 0;
+
+  h1 {
+    font-size: 50px;
+    margin-bottom: 4rem;
+  }
+  h2 {
+    font-size: 35px;
+  }
+}
+
+.card-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.card:hover {
+  border: black 2px solid;
+}
+
+figure {
+  margin: 0;
+  flex: 1;
+}
+
+.card img {
+  object-fit: cover;
+  max-width: 100%;
+  margin-left: auto;
+  display: block;
+}
+
+.card a {
+  text-decoration: none;
+  color: black;
+}
+
+.information-wrapper {
+  padding: 1rem;
+  flex: 3;
+}
+
+.publication-date {
+  margin: 0;
+}
