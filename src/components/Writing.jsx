@@ -5,6 +5,7 @@ import Article2 from "../assets/rjb104-the-canadian-press-3.webp";
 import Article3 from "../assets/yan-ots-VPGbPVMcBXg-unsplash.jpg";
 import Article4 from "../assets/Untitled-design-2.webp";
 import Article5 from "../assets/2014-01-16T120000Z_2115329838_GM1EA1H03B301_RTRMADP_3_USA-FIRE-CALIFORNIA.jpeg";
+import Article6 from "../assets/Space junk.jpeg";
 import Article7 from "../assets/Canadian-electricity-grid-scaled.webp";
 
 import "./Writing.css";
@@ -14,7 +15,7 @@ const Writing = () => {
     <div className="reporting-wrapper">
       <section className="reporting-header-section">
         <h1>REPORTING</h1>
-        <h2>Explore the stories I've written.</h2>
+        <h2>Explore my bylines.</h2>
       </section>
       <section className="card-section">
         <article className="card">
@@ -27,7 +28,7 @@ const Writing = () => {
             </figure>
             <div className="information-wrapper">
               <p className="publication-date">
-                CANADIAN AFFAIRS | april 30, 2024
+                CANADIAN AFFAIRS | April 30, 2024
               </p>
               <h3 className="card-title">
                 How consumers would benefit from a pan-Canadian electricity grid
@@ -35,7 +36,7 @@ const Writing = () => {
               <p className="card-summary">
                 A better connected electricity grid could mean ‘billions of
                 dollars back to households’. But to get there, provinces must
-                learn to share
+                learn to share.
               </p>
             </div>
           </Link>
@@ -46,7 +47,7 @@ const Writing = () => {
             target="_blank"
           >
             <figure>
-              <img src={Article3} alt="Man walking with a parasol" />
+              <img src={Article6} alt="Man walking with a parasol" />
             </figure>
             <div className="information-wrapper">
               <p className="publication-date">NEWS DECODER | March 25, 2024</p>
@@ -115,7 +116,9 @@ const Writing = () => {
               <img src={Article3} alt="Man walking with a parasol" />
             </figure>
             <div className="information-wrapper">
-              <p className="publication-date">THE CONVERSATION | FEB 1, 2024</p>
+              <p className="publication-date">
+                THE CONVERSATION | Feb. 1, 2024
+              </p>
               <h3 className="card-title">
                 Mining the depths: Norway’s deep-sea exploitation could put it
                 in environmental and legal murky waters
@@ -138,7 +141,7 @@ const Writing = () => {
             </figure>
             <div className="information-wrapper">
               <p className="publication-date">
-                THE CANADIAN PRESS | Nov 25, 2023
+                THE CANADIAN PRESS | Nov. 25, 2023
               </p>
               <h3 className="card-title">
                 Volunteers a key part of the magic at annual Toronto Santa Claus
@@ -162,7 +165,7 @@ const Writing = () => {
             </figure>
             <div className="information-wrapper">
               <p className="publication-date">
-                THE TORONTO STAR | Nov 19, 2023
+                THE TORONTO STAR | Nov. 19, 2023
               </p>
               <h3 className="card-title">
                 Europe is becoming a hot spot for air conditioning. Can the

@@ -31,3 +31,21 @@
   margin-left: auto;
   display: block;
 }
+
+@media (width < 650px) {
+  .section-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .presentation-section {
+    width: 100%;
+  }
+  .image-section {
+    width: 100%;
+  }
+  .image-section > img {
+    object-fit: cover;
+    width: 100%;
+    display: block;
+  }
+}

@@ -46,3 +46,15 @@
   margin-left: auto;
   display: block;
 }
+
+@media (width < 1000px) {
+  .about-wrapper {
+    flex-direction: column;
+  }
+  .text-aside {
+    width: 100%;
+  }
+  .figure-section {
+    width: 100%;
+  }
+}

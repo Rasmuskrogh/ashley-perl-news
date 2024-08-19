@@ -13,7 +13,9 @@ const Contact = () => {
           collaborations.
         </p>
         <p className="contact-information">You can reach me via:</p>
-        <p className="contact-information">Email hello@ashleyperl.com</p>
+        <p className="contact-information">
+          <Link to="mailto:ashleyaperl@gmail.com">ashleyaperl@gmail.com</Link>
+        </p>
         <p className="contact-information">
           <Link to="https://www.linkedin.com/in/ashleyperl/">LinkedIn</Link>
         </p>

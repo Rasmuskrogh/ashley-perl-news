@@ -13,6 +13,7 @@
   }
   h2 {
     font-size: 35px;
+    font-weight: 200;
   }
 }
 
@@ -28,12 +29,15 @@
 
 figure {
   margin: 0;
-  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card img {
   object-fit: cover;
-  max-width: 100%;
+  width: 100%;
+  aspect-ratio: 1.6 / 1;
   margin-left: auto;
   display: block;
 }
@@ -50,4 +54,22 @@ figure {
 
 .publication-date {
   margin: 0;
+}
+
+@media (width < 1000px) {
+  .card-section {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (width < 700px) {
+  .card-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (width < 500px) {
+  .card-section {
+    grid-template-columns: 1fr;
+  }
 }
