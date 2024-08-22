@@ -7,6 +7,13 @@
   margin: 0 4% 2% 4%;
 }
 
+.main-header-burger {
+  background-color: white;
+  width: 100%;
+  z-index: 2;
+  position: fixed;
+}
+
 /* .header-nav {
   display: flex;
   justify-content: flex-end;
@@ -28,7 +35,7 @@
 }
 
 .header-links a:hover {
-  color: #088F8F;
+  color: #088f8f;
 }
 
 .hamburger {

@@ -20,7 +20,7 @@ const About = () => {
         </p>
         <p>
           If you would like to talk about working together, please write me. I
-          would be <Link to="/contact">happy to chat</Link>!
+          would be <Link to="/contact">happy to chat</Link>
         </p>
         <p>
           A little bit more about me: I was a fellow in the Dalla Lana
