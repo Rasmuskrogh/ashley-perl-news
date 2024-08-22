@@ -20,10 +20,14 @@ const Header = () => {
   return (
     <>
       {!buttonActivity ? null : <Notice onClick={clickHandler} />}
-      <header className={openBurger ? "main-header main-header-burger" : "main-header"}>
+      <header
+        className={
+          openBurger ? "main-header main-header-burger" : "main-header"
+        }
+      >
         <h1>
-          <Link to="/" onClick={openBurger ? toggleBurger : ""}>
-            ASHLEY PERL{" "}
+          <Link to="/" onClick={openBurger === true ? toggleBurger : ""}>
+            ASHLEY PERL
           </Link>
         </h1>
         <nav className="header-nav">
