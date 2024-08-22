@@ -10,12 +10,12 @@
 }
 
 .contact-paragraph {
-  font-size: 1.5rem;
+  font-size: 30px;
 }
 
 .contact-information {
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 30px;
 }
 
 .contact-information a {
@@ -24,5 +24,5 @@
 }
 
 .contact-information a:hover {
-  color: blue;
+  color: #088f8f;
 }

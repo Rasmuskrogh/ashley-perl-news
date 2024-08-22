@@ -12,7 +12,7 @@
     margin-bottom: 4rem;
   }
   h2 {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 200;
   }
 }
@@ -21,6 +21,10 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
+}
+
+.card {
+  border: white 2px solid;
 }
 
 .card:hover {
@@ -54,6 +58,7 @@ figure {
 
 .publication-date {
   margin: 0;
+  color: grey;
 }
 
 @media (width < 1000px) {

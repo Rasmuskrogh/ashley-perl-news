@@ -33,11 +33,6 @@ const Writing = () => {
               <h3 className="card-title">
                 How consumers would benefit from a pan-Canadian electricity grid
               </h3>
-              <p className="card-summary">
-                A better connected electricity grid could mean ‘billions of
-                dollars back to households’. But to get there, provinces must
-                learn to share.
-              </p>
             </div>
           </Link>
         </article>
@@ -54,11 +49,6 @@ const Writing = () => {
               <h3 className="card-title">
                 What happens when space junk falls to earth?
               </h3>
-              <p className="card-summary">
-                Way up over our heads satellites and rocket parts orbit the
-                Earth. Sometimes pieces of metal fall towards us. Most burn up
-                in the atmosphere, but not all.
-              </p>
             </div>
           </Link>
         </article>
@@ -77,12 +67,6 @@ const Writing = () => {
               <h3 className="card-title">
                 From Talk to Action: Rethinking the Language of Climate Change
               </h3>
-              <p className="card-summary">
-                How climate change is talked about in society affects how people
-                think and, ultimately, how people respond. What is the best way
-                to talk about climate change in a way that inspires broad
-                climate action?
-              </p>
             </div>
           </Link>
         </article>
@@ -99,11 +83,6 @@ const Writing = () => {
               <h3 className="card-title">
                 In Icelandic history, a woman’s place might be at sea
               </h3>
-              <p className="card-summary">
-                There isn’t much of a gender gap in Iceland, except in its
-                maritime industry. But go back in time, and you’ll find women
-                pulling in nets and steering the helm.
-              </p>
             </div>
           </Link>
         </article>
@@ -123,11 +102,6 @@ const Writing = () => {
                 Mining the depths: Norway’s deep-sea exploitation could put it
                 in environmental and legal murky waters
               </h3>
-              <p className="card-summary">
-                In January, Norway became the first nation to open its
-                continental shelf to commercial deep-sea mineral exploration.
-                What does this mean for Norway’s environmental
-              </p>
             </div>
           </Link>
         </article>
@@ -147,11 +121,6 @@ const Writing = () => {
                 Volunteers a key part of the magic at annual Toronto Santa Claus
                 Parade
               </h3>
-              <p className="card-summary">
-                The volunteers — a crucial part of the machinery that brings the
-                parade to life — can sometimes fly under the radar, but those
-                who give their time and effort say there’s much to gain.
-              </p>
             </div>
           </Link>
         </article>
@@ -171,11 +140,6 @@ const Writing = () => {
                 Europe is becoming a hot spot for air conditioning. Can the
                 energy grid keep up?
               </h3>
-              <p className="card-summary">
-                Cooling is a blind spot in energy policy, says the International
-                Energy Agency (IEA) and is a looming threat to Europe’s energy
-                grid as it adapts to the new reality.
-              </p>
             </div>
           </Link>
         </article>

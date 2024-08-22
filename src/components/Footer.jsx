@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import React from "react";
 import XLogo from "../assets/XLogo.jpg";
 import linkedIn from "../assets/linkedin.svg";
-import muckrack from "../assets/32px-Muck_Rack_logo_vertical_dark.svg.png";
+import muckrack from "../assets/mr_logo_vertical-1024x638.png";
 
 import "./Footer.css";
 

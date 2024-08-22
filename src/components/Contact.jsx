@@ -14,7 +14,9 @@ const Contact = () => {
         </p>
         <p className="contact-information">You can reach me via:</p>
         <p className="contact-information">
-          <Link to="mailto:ashleyaperl@gmail.com">ashleyaperl@gmail.com</Link>
+          <Link to="mailto:ashleyaperl@gmail.com">
+            ashleyaperl [at] gmail [dot] com
+          </Link>
         </p>
         <p className="contact-information">
           <Link to="https://www.linkedin.com/in/ashleyperl/">LinkedIn</Link>
