@@ -34,7 +34,7 @@ const About = () => {
             (2012-2015)
           </li>
           <li>
-            Hounors bachelor iof arts in psychology, Western University in
+            Hounors bachelor of arts in psychology, Western University in
             London, Ont. (2007-2012)
           </li>
         </ul>
