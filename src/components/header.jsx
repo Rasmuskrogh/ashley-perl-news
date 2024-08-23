@@ -25,7 +25,7 @@ const Header = () => {
           openBurger ? "main-header main-header-burger" : "main-header"
         }
       >
-        <h1>
+        <h1 className="header-h1">
           <Link to="/" onClick={openBurger === true ? toggleBurger : ""}>
             ASHLEY PERL
           </Link>
