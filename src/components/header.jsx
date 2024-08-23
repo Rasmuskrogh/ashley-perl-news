@@ -1,25 +1,25 @@
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
-import Notice from "./Notice";
+/* import Notice from "./Notice"; */
 import Hamburger from "./Hamburger";
 
 import "./header.css";
 
 const Header = () => {
-  const [buttonActivity, setButtonActivity] = useState(true);
+  /* const [buttonActivity, setButtonActivity] = useState(true); */
   const [openBurger, setOpenBurger] = useState(false);
 
   const toggleBurger = () => {
     setOpenBurger(!openBurger);
   };
 
-  const clickHandler = () => {
+  /*  const clickHandler = () => {
     setButtonActivity(false);
-  };
+  }; */
 
   return (
     <>
-      {!buttonActivity ? null : <Notice onClick={clickHandler} />}
+      {/* {!buttonActivity ? null : <Notice onClick={clickHandler} />} */}
       <header
         className={
           openBurger ? "main-header main-header-burger" : "main-header"

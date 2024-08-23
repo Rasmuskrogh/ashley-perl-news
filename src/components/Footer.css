@@ -4,7 +4,6 @@
   justify-content: space-between;
   padding: 1rem 2rem 0.5rem 2rem;
   margin-top: auto;
-  flex-wrap: wrap;
 }
 
 footer p {
@@ -32,4 +31,20 @@ footer p {
 
 .muckrack-logo {
   color: black;
+}
+
+@media (width < 377px) {
+  .footer {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  footer p {
+    order: 2;
+    padding-right: 2px;
+  }
+
+  .footer-links {
+    padding-top: 1rem;
+  }
 }
