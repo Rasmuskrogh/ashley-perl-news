@@ -48,7 +48,7 @@ const Writing = () => {
               />
             </figure>
             <div className="information-wrapper">
-              <p className="publication-date">NEWS DECODER | Oct 7, 2024</p>
+              <p className="publication-date">NEWS DECODER | Oct. 7, 2024</p>
               <h3 className="card-title">
                 Extreme weather makes climate change a reality now
               </h3>
