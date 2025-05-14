@@ -7,7 +7,8 @@ import Article4 from "../assets/Untitled-design-2.webp";
 import Article5 from "../assets/2014-01-16T120000Z_2115329838_GM1EA1H03B301_RTRMADP_3_USA-FIRE-CALIFORNIA.jpeg";
 import Article6 from "../assets/Space junk.jpeg";
 import Article7 from "../assets/Canadian-electricity-grid-scaled.webp";
-
+import Article8 from "../assets/NewsDecoder_climate.jpg";
+import Article9 from "../assets/Walrus.jpg";
 import "./Writing.css";
 
 const Writing = () => {
@@ -20,11 +21,47 @@ const Writing = () => {
       <section className="card-section">
         <article className="card">
           <Link
+            to="https://thewalrus.ca/faced-with-sky-high-ivf-costs-couples-look-abroad-to-start-families/"
+            target="_blank"
+          >
+            <figure>
+              <img src={Article9} alt="Babies, pills and suitcases" />
+            </figure>
+            <div className="information-wrapper">
+              <p className="publication-date">THE WALRUS | April 18, 2025</p>
+              <h3 className="card-title">
+                Faced with Sky-High IVF Costs, Couples Look Abroad to Start
+                Families
+              </h3>
+            </div>
+          </Link>
+        </article>
+        <article className="card">
+          <Link
+            to="https://news-decoder.com/extreme-weather-makes-climate-change-a-reality-now/"
+            target="_blank"
+          >
+            <figure>
+              <img
+                src={Article8}
+                alt="Man paddling a rubberboat dow the fludded street"
+              />
+            </figure>
+            <div className="information-wrapper">
+              <p className="publication-date">NEWS DECODER | Oct 7, 2024</p>
+              <h3 className="card-title">
+                Extreme weather makes climate change a reality now
+              </h3>
+            </div>
+          </Link>
+        </article>
+        <article className="card">
+          <Link
             to="https://www.canadianaffairs.news/2024/04/30/how-consumers-would-benefit-from-a-pan-canadian-electricity-grid/"
             target="_blank"
           >
             <figure>
-              <img src={Article7} alt="Man walking with a parasol" />
+              <img src={Article7} alt="An electricity grid" />
             </figure>
             <div className="information-wrapper">
               <p className="publication-date">
@@ -42,7 +79,7 @@ const Writing = () => {
             target="_blank"
           >
             <figure>
-              <img src={Article6} alt="Man walking with a parasol" />
+              <img src={Article6} alt="A satelite over South America" />
             </figure>
             <div className="information-wrapper">
               <p className="publication-date">NEWS DECODER | March 25, 2024</p>
@@ -58,7 +95,7 @@ const Writing = () => {
             target="_blank"
           >
             <figure>
-              <img src={Article5} alt="Man walking with a parasol" />
+              <img src={Article5} alt="A car driving away from a forest fire" />
             </figure>
             <div className="information-wrapper">
               <p className="publication-date">
@@ -76,7 +113,7 @@ const Writing = () => {
             target="_blank"
           >
             <figure>
-              <img src={Article4} alt="Man walking with a parasol" />
+              <img src={Article4} alt="A painted woman in fishing gear" />
             </figure>
             <div className="information-wrapper">
               <p className="publication-date">NEWS DECODER | March 7, 2024</p>
@@ -92,7 +129,7 @@ const Writing = () => {
             target="_blank"
           >
             <figure>
-              <img src={Article3} alt="Man walking with a parasol" />
+              <img src={Article3} alt="ice floe" />
             </figure>
             <div className="information-wrapper">
               <p className="publication-date">
@@ -111,7 +148,10 @@ const Writing = () => {
             target="_blank"
           >
             <figure>
-              <img src={Article2} alt="Man walking with a parasol" />
+              <img
+                src={Article2}
+                alt="Santa hailing the audience at the Santa Claus Parade"
+              />
             </figure>
             <div className="information-wrapper">
               <p className="publication-date">
